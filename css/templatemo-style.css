@@ -346,7 +346,7 @@ section {
   -----------------------------------------*/
 
 #home {
-  background-size: cover;
+  background-size: 100% auto;
   vertical-align: middle;
   display: -webkit-box;
   display: -webkit-flex;
@@ -362,11 +362,13 @@ section {
   padding-top: 10em;
   text-align: center;
 }
-/* #home img {
+#home img {
   width: 100%;
   max-width: 100%;
   height: auto;
-} */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 /* 
 #home h1 {
   color: #ffffff;
