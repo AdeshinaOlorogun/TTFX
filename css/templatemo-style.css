@@ -560,7 +560,7 @@ section {
   box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Blue glowing shadow */
   margin: 20px;
   height: 600px;
-  width: auto;
+  width: 300px;
 }
 .step .content {
   font-size: 14px; /* Adjust font size */
