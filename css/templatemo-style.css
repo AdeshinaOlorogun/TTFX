@@ -561,7 +561,7 @@ section {
   margin: 20px;
   height: 600px;
   width: 300px;
-  text-align: center;
+  align-items: center;
 }
 .step .content {
   font-size: 14px; /* Adjust font size */
