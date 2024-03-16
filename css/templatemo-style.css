@@ -587,11 +587,11 @@ section {
   height: 600px;
 }
 .media.blog-thumb {
-  background-color: transparent;
-  border-radius: 30px;
-  border: 6px solid transparent; /* Set initial border to transparent */
+  background-color: rgba(0, 0, 0, 0.4); /* Black fill with 40% opacity */
+  border-radius: 20px;
+  border: 4px solid transparent; /* Set initial border to transparent */
   /* background-image: url("../images/sect-2.png"); */
-  padding: 20px; /* Add padding as needed */
+  padding: 0px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
   text-align: left; /* Align text to the left */
 }
