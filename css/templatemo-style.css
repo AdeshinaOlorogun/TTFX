@@ -356,10 +356,10 @@ section {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
   overflow: hidden;
-  padding-top: 10em;
+  /* padding-top: 10em; */
   text-align: center;
 }
 #home img {
@@ -517,7 +517,7 @@ section {
   background-image: url("../images/sect-2.png");
 } */
 .custom-button {
-  background-color: transparent;
+  background-color: #f3e31d; /* Yellow fill */
   border: 2px solid yellow;
   border-radius: 30px;
   color: white; /* Text color */
@@ -558,20 +558,25 @@ section {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Blue glowing shadow */
-  margin-bottom: 20px;
+  margin: 30px;
   height: 300px;
 }
 .step .content {
   font-size: 14px; /* Adjust font size */
   line-height: 1.5; /* Adjust line height */
+  font-weight: bold; /* Make text bold */
 }
+
 .step.blog-thumb {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.4); /* Black fill with 40% opacity */
   border-radius: 20px;
   border: 4px solid transparent; /* Set initial border to transparent */
   /* background-image: url("../images/sect-2.png"); */
-  padding: 10px; /* Add padding as needed */
+  padding: 0px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Align content to the center horizontally */
+  align-items: center; /* Align content to the center vertically */
 }
 .media {
   background-color: #333;
@@ -588,6 +593,7 @@ section {
   /* background-image: url("../images/sect-2.png"); */
   padding: 20px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
+  text-align: left; /* Align text to the left */
 }
 
 .media.blog-thumb .media-left {
@@ -611,6 +617,13 @@ section {
 #blog h2 {
   font-weight: bold;
   color: yellow;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#blog p {
+  letter-spacing: 2px;
+  font-size: medium;
 }
 
 #blog-detail h2 {
@@ -712,6 +725,8 @@ section {
 
 #contact .section-title h2 {
   color: #ffffff;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 #contact .form-control {
