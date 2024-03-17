@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   #home {
-    background-size: 100% auto; /* Change to 100% auto for responsive resizing */
+    background-size: 100%; /* Change to 100% auto for responsive resizing */
   }
 }
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
@@ -578,7 +578,7 @@ section {
   background-color: rgba(0, 0, 0, 0.4); /* Black fill with 40% opacity */
   border-radius: 20px;
   border: 4px solid transparent; /* Set initial border to transparent */
-  /* background-image: url("../images/sect-2.png"); */
+
   padding: 10px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
   display: flex; /* Set display to flex */
