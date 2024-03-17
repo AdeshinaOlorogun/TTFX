@@ -743,6 +743,7 @@ section {
   letter-spacing: 2px;
   color: yellow;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 #contact .form-control {
