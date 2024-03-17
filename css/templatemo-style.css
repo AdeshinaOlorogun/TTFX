@@ -517,7 +517,7 @@ section {
   background-image: url("../images/sect-2.png");
 } */
 .custom-button {
-  background-color: #f3e31d; /* Yellow fill */
+  background-color: transparent;
   border: 2px solid yellow;
   border-radius: 30px;
   color: white; /* Text color */
@@ -555,18 +555,23 @@ section {
 
 .step {
   background-color: rgba(51, 51, 51, 0.9);
-  padding: 0px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Blue glowing shadow */
-  margin: 0px;
-  height: 600px;
-  width: 300px;
-  align-items: center;
+  margin-bottom: 20px;
+  height: 300px;
 }
 .step .content {
   font-size: 14px; /* Adjust font size */
   line-height: 1.5; /* Adjust line height */
-  font-weight: bold; /* Make text bold */
+  font-weight: bold;
+}
+.step.blog-thumb h2 {
+  letter-spacing: 2px;
+}
+
+.step.blog-thumb h3 {
+  letter-spacing: 2px;
 }
 
 .step.blog-thumb {
@@ -574,12 +579,13 @@ section {
   border-radius: 20px;
   border: 4px solid transparent; /* Set initial border to transparent */
   /* background-image: url("../images/sect-2.png"); */
-  padding: 0px; /* Add padding as needed */
+  padding: 10px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
   display: flex; /* Set display to flex */
   justify-content: center; /* Align content to the center horizontally */
   align-items: center; /* Align content to the center vertically */
 }
+
 .media {
   background-color: #333;
   padding: 20px;
@@ -589,13 +595,20 @@ section {
   height: 600px;
 }
 .media.blog-thumb {
-  background-color: rgba(0, 0, 0, 0.4); /* Black fill with 40% opacity */
-  border-radius: 20px;
-  border: 4px solid transparent; /* Set initial border to transparent */
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  border: 6px solid transparent; /* Set initial border to transparent */
   /* background-image: url("../images/sect-2.png"); */
-  padding: 0px; /* Add padding as needed */
+  padding: 20px; /* Add padding as needed */
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
-  text-align: left; /* Align text to the left */
+  text-align: left;
+}
+.media.blog-thumb h2 {
+  letter-spacing: 2px;
+}
+
+.media.blog-thumb h3 {
+  letter-spacing: 2px;
 }
 
 .media.blog-thumb .media-left {
@@ -619,13 +632,10 @@ section {
 #blog h2 {
   font-weight: bold;
   color: yellow;
-  font-size: 35px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
-
 #blog p {
   letter-spacing: 2px;
-  font-size: medium;
 }
 
 #blog-detail h2 {
@@ -639,6 +649,7 @@ section {
 .blog-info h3 {
   margin: 0;
   padding: 8px 0 6px 0;
+  text-transform: none;
 }
 
 .blog-info .section-btn {
@@ -667,7 +678,7 @@ section {
 }
 
 .blog-thumb ul li {
-  list-style: square;
+  list-style: none;
   font-weight: normal;
   padding: 4px 12px 4px 0px;
 }
@@ -720,13 +731,14 @@ section {
   -----------------------------------------*/
 
 #contact {
-  background: transparent;
+  background: transparent; /* fallback for old browsers */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #contact .section-title h2 {
-  color: #ffffff;
-  font-weight: bolder;
   letter-spacing: 2px;
+  color: yellow;
+  font-weight: bold;
 }
 
 #contact .form-control {
