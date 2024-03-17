@@ -517,14 +517,18 @@ section {
   background-image: url("../images/sect-2.png");
 } */
 .custom-button {
-  background-color: transparent;
-  border: 2px solid yellow;
+  background-color: #f3e31d;
+  border: 2px solid #f3e31d;
   border-radius: 30px;
-  color: white; /* Text color */
+  color: black; /* Text color */
   padding: 10px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
   cursor: pointer;
   outline: none; /* Removes default focus outline */
+}
+.custom-button:hover {
+  background-color: black; /* Inverted background color */
+  color: #f3e31d; /* Inverted text color */
 }
 
 #blog-header,
@@ -558,7 +562,7 @@ section {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Blue glowing shadow */
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   height: 300px;
 }
 .step .content {
