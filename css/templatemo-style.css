@@ -682,10 +682,12 @@ section {
   margin: 32px 12px 22px 0px;
 }
 
-.blog-thumb ul li {
-  list-style: none;
+.blog-thumb li {
+  list-style: circle;
   font-weight: normal;
-  padding: 4px 12px 4px 0px;
+  padding: 4px 12px;
+  margin-left: 0;
+  text-indent: -1em;
 }
 
 .blog-social-share {
