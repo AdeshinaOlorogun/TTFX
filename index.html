@@ -170,7 +170,7 @@
                           FORM.
                         </h3>
                         <div class="button-wrapper">
-                          <button class="custom-button" onclick="scrollToSection('about')">Go to form</button>
+                          <button class="custom-button" onclick="scrollToSection('contact')">Go to form</button>
                         </div>
                     </div>
                 </div>
@@ -406,6 +406,14 @@
     </section>
 
     <!-- SCRIPTS -->
+    <script>
+      function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
