@@ -520,11 +520,12 @@ section {
   background-color: #f3e31d;
   border: 2px solid #f3e31d;
   border-radius: 30px;
-  color: black; /* Text color */
-  padding: 10px 20px; /* Adjust padding as needed */
-  font-size: 16px; /* Adjust font size as needed */
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
   cursor: pointer;
-  outline: none; /* Removes default focus outline */
+  outline: none;
 }
 .custom-button:hover {
   background-color: black;
